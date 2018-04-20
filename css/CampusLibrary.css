@@ -1,0 +1,401 @@
+.header_nav {
+    font-size: 14px;
+    padding: 10px 17px;
+}
+.header_nav:hover a {
+    color: #ca0000;
+}
+.header_right {
+    font-size: 16px;
+    padding: 10px 17px;
+    margin-left: 25px;
+}
+/* logo和搜索 */
+.nav_container {
+    width: 100%;
+    height: 90px;
+}
+.nav_img {
+    padding:20px 16px 20px 0px;
+}
+.nav_search {
+    margin-top: 25px;
+    width: 459px;
+    height: 41px;
+    border: 2px solid #ca0000;
+}
+.nav_int {
+    width: 150px;
+    height: 100%;
+    font-size: 16px;
+    color: #ccc;
+    padding-left: 60px;
+}
+.nav_inb {
+    width: 97px;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+    border: 2px solid #ca0000;
+    background: url('../image/组 29.png');
+    background-size: 100%;
+}
+.nav_diqu {
+    width: 75px;
+    height: 100%;
+    line-height: 41px;
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+    position: relative;
+}
+.nav_diquimg {
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.nav_display {
+    width: 63px;
+    position: absolute;
+    left: 0px;
+    top: 43px;
+    z-index: 1999;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.nav_fazheng {
+    height: 100%;
+    line-height: 95px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+.content_left {
+    width: 750px;
+}
+/* 城市 */
+.topnav {
+    width: 747px;
+    height: 230px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.topnavli {
+    border-top: 2px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    padding: 18px 25px;
+    cursor: pointer;
+}
+.topnavli:nth-last-child(1) {
+    border-right: none;
+}
+.topnavlired {
+    border-top: 2px solid #ca0000;
+    border-bottom: none;
+    color: #ca0000;
+}
+.topnav_bottom {
+    width: 100%;
+    height: 170px;
+}
+/* 清华五道口 */
+.topnav_bottomul {
+    display: none;
+}
+.topnav_bottomul:nth-child(1){
+    display: block;
+}
+.topnav_bottomli {
+   width: 186px;
+   height: 85px;
+   line-height: 85px;
+   text-align: center;
+   font-size: 16px;
+   color: #ccc;
+   position: relative;
+   cursor: pointer;
+}
+.topnav_bottomli:hover{
+    color: #ca0000;
+}
+.topnav_botdiv {
+    display: none;
+    position: absolute;
+    left: 58px;
+    bottom: -22px;
+    font-size: 14px;
+}
+.banner {
+    width: 100%;
+    height: 61px;
+    margin-top: 30px;
+    background-color: #ccc;
+}
+.red {
+    color:#ca0000;
+}
+.topnav_botdiv i{
+    color: #ccc;
+}
+.topnav_botdiv a {
+    color: #ccc;
+}
+.topnav_botdiv :hover a {
+    color:#ca0000;
+}
+.summary {
+    width: 100%;
+    height: 126px;
+    margin-top: 27px;
+}
+.summary_fenlei {
+    font-size: 18px;
+    color: #000;
+}
+.summary_gongji {
+    font-size: 16px;
+    color: #ccc;
+}
+.summary_gongji i {
+    color: #ca0000;
+}
+.summary_hot {
+    width: 100%;
+    height: 98px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+.summary_chengshi {
+    width: 220px;
+    height: 100%;
+    float: left;
+}
+.summary_ul {
+    margin: 10px 0;
+}
+.summary_li {
+    padding: 10px 21px;
+    font-size: 14px;
+}
+.summary_li:hover a {
+    color:  #ca0000;
+} 
+/* 北京 */
+.tag_bj{
+    width: 100%;
+    margin-top: 30px;
+    padding: 14px 26px 12px 28px;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+}
+.tab_bjpad {
+    margin-top: 20px;
+    padding-top: 27px;
+    padding-bottom: 6px;
+}
+.tag_div {
+    margin-bottom: 6px;
+}
+.tag_beijing {
+    font-size: 16px;
+    color: #ca0000;
+    margin-right: 8px;
+}
+.tag_A {
+    color: #ccc;
+    font-size: 12px;
+}
+.tag_ul_left {
+    padding-right:68px; 
+}
+.tag_ul_cur {
+    padding: 0 68px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.tag_ul_right {
+    padding-left:68px;
+}
+.tag_li {
+    margin: 14px 0px;
+    font-size: 14px;
+}
+.tag_li a {
+    color: #747474; 
+}
+.tag_li:hover a {
+    color: #ca0000; 
+}
+/* 亚马 */
+.tag_yama {
+    width: 100%;
+    margin: 36px 0px 29px 0px;
+}
+/* 侧栏 */
+.content_right {
+    width: 250px;
+}
+.sideBar {
+    width: 100%;
+    height: 492px;
+    margin-bottom: 23px;
+}
+.sideBar_top {
+    width: 100%;
+    height: 396px;
+    padding: 0 20px;
+    box-sizing:border-box;
+}
+.sideBar_yusuan {
+    font-size: 17.4px;
+    display: block;
+    margin: 13px 0px ;
+}
+.sideBar_yusuan i {
+    color: #ca0000;
+}
+.sideBar_ys7 {
+    display: block;
+    width: 11px;
+    height: 15px;
+    margin: 5px 4px;
+    background: url('../image/形状 7.png');
+    background-size: 100%;
+}
+.sideBar_ys8 {
+    display: block;
+    width: 11px;
+    height: 15px;
+    margin: 5px;
+    background: url('../image/形状 8.png');
+    background-size: 100%;
+}
+.sideBar_xian {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; 
+}
+.sideBar_ul {
+    margin-left: 14px;
+}
+.sideBar_li {
+    padding-bottom: 12px; 
+}
+.sideBar_li a{
+    font-size: 15px;
+    color: #666;
+}
+.sideBar_sp:hover a {
+    color: #ca0000;
+}
+.sideBar_img {
+    margin: 12px 25px 10px 25px;
+}
+.sideBar_span {
+    font-size: 18px;
+    cursor: default;
+}
+.sideBar_bottom {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.SB_img {
+    cursor: default;
+}
+.sideBar_tab {
+    width: 100%;
+    padding-left: 26px;
+    box-sizing:border-box;
+    margin-bottom: 15px;
+}
+.sideBar_tab:nth-child(3) {
+    margin-bottom: 36px;
+}
+.sideBar_tabtop {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+/* 方块ul */
+.Stabli {
+    display: block;
+    overflow:hidden;
+    padding-top: 11px;
+}
+.Stabri {
+    display: block;
+    margin: 7px;
+    width: 5px;
+    height: 5px;
+    background-color: #666;
+}
+.Stabli:nth-child(1) .Stabri {
+    background-color: #ca0000;
+}
+.Stabli:nth-child(2) .Stabri {
+    background-color: #e57312;
+}
+.Stabspan {
+    width: 170px;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.Stabli a {
+    font-size: 12px;
+}
+.Stabul .Stabli:hover a {
+    color: #ca0000;
+}
+/* 百科 */
+.sideBar_baike {
+    width: 100%;
+    padding-left:28px; 
+    box-sizing:border-box;
+}
+.Sbk_baike {
+    border-bottom: 1px solid #ccc;
+}
+.Sbk_span {
+    padding: 3px;
+    font-size: 12px;
+    cursor: default;
+}
+.Sbk_gengduo {
+    font-size: 12px;
+    color: #ccc;
+    padding: 3px;
+}
+.Sbk_tabli {
+    width: 33.3333%;
+    height: 57px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Sbk_tabli:hover a {
+    color: #ca0000;
+}
+.Sbk_tabul:nth-last-child(1) {
+   display: none;
+}
+.Sbk_tabul:nth-last-child(2) {
+    display: none;
+ }
+.Sbk_red {
+    background-color: #ca0000;
+    color: #fff;
+}
+.Sbk_tabspan {
+    padding: 6px 14px 0px;
+}
+.Sbk_tabimg {
+    width: 32px;
+    height: 30px;
+}
+.Sbk_tuceng {
+    margin-top: 30px;
+}

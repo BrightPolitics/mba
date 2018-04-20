@@ -1,0 +1,247 @@
+.header_nav {
+    font-size: 14px;
+    padding: 10px 17px;
+}
+.header_nav:hover a {
+    color: #ca0000;
+}
+.header_right {
+    font-size: 16px;
+    padding: 10px 17px;
+    margin-left: 25px;
+}
+/* logo和搜索 */
+.nav_container {
+    width: 100%;
+    height: 90px;
+}
+.nav_img {
+    padding:20px 16px 20px 0px;
+}
+.nav_search {
+    margin-top: 25px;
+    width: 459px;
+    height: 41px;
+    border: 2px solid #ca0000;
+}
+.nav_int {
+    width: 150px;
+    height: 100%;
+    font-size: 16px;
+    color: #ccc;
+    padding-left: 60px;
+}
+.nav_inb {
+    width: 97px;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+    border: 2px solid #ca0000;
+    background: url('../image/组 29.png');
+    background-size: 100%;
+}
+.nav_diqu {
+    width: 75px;
+    height: 100%;
+    line-height: 41px;
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+    position: relative;
+}
+.nav_diquimg {
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.nav_display {
+    width: 63px;
+    position: absolute;
+    left: 0px;
+    top: 43px;
+    z-index: 1999;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.nav_fazheng {
+    height: 100%;
+    line-height: 95px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+.content_left {
+    width: 750px;
+}
+/* 地址指引 */
+.SP_weizhi{
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+}
+.SP_weizhi a {
+    color: #666;
+}
+.main_right {
+    width: 299px;
+}
+.main_left {
+    width: 633px;
+} 
+.AP_content{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.AP_content h1 {
+    font-weight: bolder;
+}
+.AP_subnav {
+    padding: 10px 0px;
+    position: relative;
+}
+.AP_subnavimg {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.AP_subnav span {
+    color: #808080;
+    margin-right: 15px;
+}
+.Ap_article {
+    text-align: left;
+    padding-bottom: 23px;
+    /* border-bottom: 1px solid #199edc; */
+    position: relative;
+}
+.Ap_article p {
+    font-size: 14px;
+    text-indent: 2em;
+    padding: 8px 0px; 
+}
+.Ap_article span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* .APar_fanye {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.APar_fanyered {
+    color: #ca0000;
+}  */
+.AP_zhanwei {
+    float: left;
+    width: 53px;
+    height: 100px;
+}
+.Ap_list {
+    width: 290px;
+}
+.Apli_span{
+    display: block;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: left;
+}
+/* 调剂栏样式 */
+.tjli {
+    display: block;
+    overflow:hidden;
+    padding-top: 14px;
+}
+.tjli span:nth-child(3) {
+    color: #ccc;
+}
+.ri {
+    display: block;
+    margin: 6px;
+    margin-right: 13px;
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+}
+.tjul .tjli:hover .ri {
+    background-color: #ca0000;
+}
+.tjspan {
+    width: 200px;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.tjli a {
+    font-size: 14px;
+}
+.tjul .tjli:hover a {
+    color: #ca0000;
+}
+.kaoshilan {
+    width: 302px;
+    margin-top: 28px;
+}
+.bishi {
+    width: 302px;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.bsname {
+    width: 97px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+}
+.bsgd {
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+/* 报名登陆 */
+.AC_submenu {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.AC_regsiter {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #145ecc;
+}
+.AC_regsiter span {
+    font-size: 16px;
+    color: #145ecc;
+}
+.AC_tjimg {
+    padding: 6px;
+}
+.AC_inpname {
+    margin-top: 11px;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.AC_buttj {
+    width: 100%;
+    height: 35px;
+    margin-top: 11px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #338eec;
+    border-radius: 2px;
+}
+.SP_wudaokou {
+    color: #ccc;
+    margin-top: 6px;
+}

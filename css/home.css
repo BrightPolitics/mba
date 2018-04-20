@@ -1,0 +1,427 @@
+.title{
+    height: 128px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    position: relative;
+}
+img {
+    cursor: pointer;
+}
+.logo{
+    width: 128px;
+    height: 128px;
+    background-color: #ccc;
+}
+.search {
+    margin-top: 32px;
+    margin-left: 107px;
+}
+.int {
+    width: 424px;
+    height: 41px;
+    font-size: 24px;
+    padding-left: 10px;
+    border: 2px solid #ca0000;
+}
+.inb {
+    width: 107px;
+    height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+    border: 2px solid #ca0000;
+    background: url('../image/组 29.png');
+    background-size: 100%;
+}
+.more {
+    margin-top: 42px;
+    font-size: 16px;
+    color: #808080;
+}
+.more_img {
+    display: block;
+    width: 15px;
+    height: 8px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background: url('../image/10.png');
+    background-size: 100%;
+}
+.daohang {
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+.dhli {
+    height: 20px;
+    padding: 6px 20px;
+    font-size: 16px;
+}
+/* 分割线 */
+.home {
+    width: 100%;
+    margin-bottom: 49px;
+}
+.homeimg {
+    width: 276px;
+    height: 350px;
+    background-color: #ccc;
+    overflow: hidden;
+    position: relative;
+}
+/* 轮播图 */
+#box {
+    width: 100%;
+    height: 100%;
+}
+#list {
+    width: 100%;
+    height: 100%;
+}
+#list li {
+    width: 100%;
+    height: 100%;
+}
+#nav {
+    position: absolute;
+    left: 33%;
+    bottom: 5px;
+}
+#nav li {
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    line-height: 15px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.8);
+}
+#nav .active {
+    background-color: rgba(55,220,37,0.8);
+}
+/* 中部三类 */
+.homedh {
+    width: 388px;
+    margin-left: 25px;
+    margin-bottom: 33px;
+}
+.homeh2 {
+    height: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    white-space : normal nowrap;
+    overflow: hidden;
+    color: #ca0000;
+}
+.houl {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.houl1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hone {
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+.hone a {
+    color: #747474;
+}
+.holi {
+    padding: 0 8px;
+}
+.holi a {
+    color: #808080;
+}
+.houl .holi:hover a {
+    color: #ca0000;
+}
+.houl .hone:hover a {
+    color: #747474;
+}
+/* 调剂活动 */
+.tiaoji {
+    width: 275px;
+}
+.tiaojiimg {
+    display: block;
+    width: 100%;
+    height: 115px;
+    background-color: #ccc;
+    margin-bottom: 15px;
+}
+.tiaojih3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+/* .tjul {
+    margin-left: 15px;
+} */
+.tjli {
+    display: block;
+    overflow:hidden;
+    /* list-style-type: square; */
+    padding-top: 14px;
+}
+.ri {
+    display: block;
+    margin: 6px;
+    width: 6px;
+    height: 6px;
+    background-color: #666;
+}
+.tjul .tjli:hover .ri {
+    background-color: #ca0000;
+}
+.tjspan {
+    width: 200px;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.tjli a {
+    font-size: 14px;
+}
+.tjul .tjli:hover a {
+    color: #ca0000;
+}
+/* 三张图  */
+.tupian {
+    width: 100%;
+    height: 191px;
+    margin-bottom: 27px;
+}
+.tu1 {
+    width: 313px;
+    height: 100%;
+    margin-right: 30px;
+    background-color: red
+}
+.tu2 {
+    width: 313px;
+    height: 100%;
+    background-color: red;
+}
+/* 考试模块 */
+.kaoshi {
+    width: 100%;
+}
+.kaoshilan {
+    width: 301px;
+    margin-bottom: 30px;
+}
+.bishi {
+    width: 305px;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 22px;
+}
+.bsname {
+    width: 97px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+}
+.bsgd {
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+.tuwen {
+    width: 100%;
+    height: 70px;
+}
+.tu {
+    display: block;
+    width: 133px;
+    height: 100%;
+    margin-right: 20px;
+    background-color: blueviolet;
+}
+.wen1 {
+    width: 133px;
+    font-weight: bold;
+    font-size: 14p;
+    color: #ca0000;
+}
+.zhongjian {
+    margin: 0 38px;
+}
+/* 通栏横图 */
+.hengtu {
+    width: 100%;
+    height: 143px;
+    margin-bottom: 32px;
+}
+.hengtuimg {
+    display: block;
+    width: 100%;
+    height: 143px;
+}
+/* 报考 */
+.title1 {
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 18px;
+}
+.zhanweitu {
+    width: 100px;
+    height: 36px;
+    background-color: #ca0000;
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+}
+.bk_zhongjian {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.baokao {
+    width: 290px;
+}
+.bk_bk {
+    width: 100%;
+}
+.bk_zhinan {
+    font-size: 16px;
+    padding-left: 10px;
+    border-left: 2px solid #fff;
+    cursor:pointer;
+}
+.bk_zhinan:hover {
+    color: #ca0000;
+    border-left: 2px solid #ca0000;
+}
+.bk_bishi {
+    margin-left: 24px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-left: 2px solid #fff;
+    cursor:pointer;
+}
+.bk_bishi:hover {
+    color: #ca0000;
+    border-left: 2px solid #ca0000;
+}
+.zhinan_ul {
+    display: block;
+}
+.bishi_ul {
+    display: none;
+}
+.baokaozhongjian {
+    padding: 0px 55px;
+}
+.baokao_tupian {
+    width: 309px;
+}
+.bktu_img {
+    width: 100%;
+    height: 150px;
+    background-color: #999;
+}
+.MBAzhongshi {
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding:9px 0px; 
+}
+/* 校园库 */
+.shengshi {
+    width: 100%;
+    height: 183px;
+    margin-bottom: 30px;
+}
+.xykbody {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.xiaoyuanku {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+.xykdiv {
+    margin-left: 200px;
+    border-bottom: 1px solid #ccc;
+}
+.xykli {
+    margin-top: 5px;
+    display: block;
+    width: 24px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.xykliq {
+    margin-top: 5px;
+    display: block;
+    width: 24px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+    background-color: #F6BF1A;
+    color: #F6BF1A;
+}
+.xyki {
+    margin-top: 10px;
+    display: block;
+    width: 30px;
+    height: 12px;
+    background: url('../image/更多+.png');
+    background-size: 100%;
+}
+.xykli a {
+    color: #666;
+}
+.xykliq:hover a {
+    color: #000;
+}
+.xykli:hover a {
+    color: #f6bf1b;
+}
+.xyktu {
+    width: 100%;
+    height: 142px;
+}
+.xyktuli {
+    width: 131px;
+    height: 142px;
+    margin-right: 13px;
+}
+.xyktuli7 {
+    width: 131px;
+    height: 142px;
+}
+.xyktuimg {
+    width: 131px;
+    height: 113px;
+}
+.xyktuspan {
+    display: block;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 14px;
+}
+.xyktuli:hover a {
+    color: #000;
+}
+.xyktuli7:hover a {
+    color: #000;
+}

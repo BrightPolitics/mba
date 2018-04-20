@@ -1,0 +1,192 @@
+.title{
+    height: 128px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    position: relative;
+}
+img {
+    cursor: pointer;
+}
+.logo{
+    width: 128px;
+    height: 128px;
+    background-color: #ccc;
+}
+.search {
+    margin-top: 32px;
+    margin-left: 107px;
+}
+.int {
+    width: 424px;
+    height: 41px;
+    font-size: 24px;
+    padding-left: 10px;
+    border: 2px solid #ca0000;
+}
+.inb {
+    width: 107px;
+    height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+    border: 2px solid #ca0000;
+    background: url('../image/组 29.png');
+    background-size: 100%;
+}
+.more {
+    margin-top: 42px;
+    font-size: 16px;
+    color: #808080;
+}
+.more_img {
+    display: block;
+    width: 15px;
+    height: 8px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background: url('../image/10.png');
+    background-size: 100%;
+}
+.daohang {
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+.dhli {
+    height: 20px;
+    padding: 6px 20px;
+    font-size: 16px;
+}
+/* 调剂栏样式 */
+.tjli {
+    display: block;
+    overflow:hidden;
+    padding-top: 14px;
+}
+.tjli span:nth-child(3) {
+    color: #ccc;
+}
+.ri {
+    display: block;
+    margin: 6px;
+    margin-right: 13px;
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+}
+.tjul .tjli:hover .ri {
+    background-color: #ca0000;
+}
+.tjspan {
+    width: 200px;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.tjli a {
+    font-size: 14px;
+}
+.tjul .tjli:hover a {
+    color: #ca0000;
+}
+.kaoshilan {
+    width: 302px;
+    margin-top: 28px;
+}
+.bishi {
+    width: 302px;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.bsname {
+    width: 97px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+}
+.bsgd {
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+/* 插入图 */
+.ACcharutu {
+    margin-top: 30px;
+}
+/* 地址指引 */
+.MAUD_weizhi{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #666;
+}
+.MAUD_weizhi a {
+    color: #666;
+}
+/* 文章 */
+.main_left {
+    width: 633px;
+} 
+.AP_content{
+    width: 100%;
+    text-align: center;
+}
+.AP_content h1 {
+    font-weight: bolder;
+}
+.AP_subnav {
+    padding: 10px 0px;
+    position: relative;
+}
+.AP_subnavimg {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.AP_subnav span {
+    color: #808080;
+    margin-right: 15px;
+}
+.Ap_article {
+    text-align: left;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #199edc;
+    position: relative;
+}
+.Ap_article p {
+    font-size: 14px;
+    text-indent: 2em;
+    padding: 8px 0px; 
+}
+.Ap_article span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.APar_fanye {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.APar_fanyered {
+    color: #ca0000;
+} 
+.AP_zhanwei {
+    float: left;
+    width: 53px;
+    height: 100px;
+}
+.Ap_list {
+    width: 290px;
+}
+.Apli_span{
+    display: block;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: left;
+}

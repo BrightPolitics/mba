@@ -1,0 +1,399 @@
+.MBAheader {
+    width: 100%;
+    height: 33px;
+    background-color: #fff;
+}
+.MBAheader_tab {
+    width:1000px;
+    margin:0 auto;
+    height: 100%;
+}
+.Mh_bowen {
+    padding: 8px 0px;
+    font-size: 12px;
+}
+.Mh_li {
+    padding: 8px 13px;;
+    font-size: 12px;
+}
+.Mh_li:nth-last-child(2) {
+    padding-right: 55px;
+}
+.Mh_li:hover a {
+    color: #ca0000;
+}
+.MBAtitle{
+    height: 293px;
+    overflow: hidden;
+    position: relative;
+}
+.column_nav {
+    width: 100%;
+    /* background: url('../image/timg.png'); */
+    margin-bottom: 28px;
+}
+img {
+    cursor: pointer;
+}
+.MBAlogo{
+    width: 128px;
+    height: 128px;
+    margin-top: 40px;
+    background-color: #ccc;
+}
+/* 搜索框 */
+.MBAsearch {
+    margin-top: 49px;
+    margin-left: 107px;
+}
+.MBAint {
+    width: 424px;
+    height: 41px;
+    font-size: 24px;
+    padding-left: 10px;
+    background-color: #fbf7f705;
+    border: 2px solid #ca0000;
+}
+.inb {
+    width: 107px;
+    height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+    border: 2px solid #ca0000;
+    background: url('../image/组 29.png');
+    background-size: 100%;
+}
+.MBA30 {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+/* 首页 */
+.home {
+    width: 100%;
+}
+.homeimg {
+    width: 276px;
+    height: 350px;
+    background-color: #ccc;
+    overflow: hidden;
+    position: relative;
+}
+/* 中部三类 */
+.homedh {
+    width: 314px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.homeh2 {
+    height: 20px;
+    font-size: 16px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    white-space : normal nowrap;
+    overflow: hidden;
+    color: #ca0000;
+}
+.houl {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.houl1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hone {
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+.hone a {
+    color: #000;
+}
+.holi {
+    padding: 0 8px;
+}
+.holi a {
+    color: #000;
+}
+.MAholi:hover a {
+    color: #ca0000;
+}
+.houl .holi:hover a {
+    color: #ca0000;
+}
+.houl .hone:hover a {
+    color: #000;
+}
+/* 下拉菜单 */
+.AC_menu {
+    width: 381px;
+    height: 315px;
+}
+.AC_meinp {
+    width: 290px;
+    height: 44px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+.AC_mebtn {
+    width: 90px;
+    height: 44px;
+    background: url('../image/组 282.png');
+    cursor: pointer;
+}
+.AC_mecd {
+    width: 378px;
+    height: 270px;
+    border: 1px solid #ccc;
+}
+.AC_meul {
+    width: 20%;
+    text-align: center;
+}
+.AC_meli {
+    font-size: 14px;
+    padding-top:7px; 
+}
+/* 自定义菜单 */
+/* 报名登陆 */
+.AC_submenu {
+    width: 237px;
+    height: 315px;
+}
+.AC_regsiter {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #145ecc;
+}
+.AC_regsiter span {
+    font-size: 16px;
+    color: #145ecc;
+}
+.AC_tjimg {
+    padding: 6px;
+}
+.AC_inpname {
+    margin-top: 11px;
+    width: 235px;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.AC_buttj {
+    width: 235px;
+    height: 35px;
+    margin-top: 11px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #338eec;
+    border-radius: 2px;
+}
+.AC_service {
+    width: 100%;
+    height: 60px;
+    padding: 6px 0px;
+}
+.AC_lianxi span{
+    font-weight: bolder;
+}
+.AC_4000 {
+    margin-left: 75px;
+}
+.AC_service div {
+    font-size: 14px;
+    padding: 4px 0px;
+}
+.AC_qq img {
+    padding: 2px 10px 2px 0px;
+}
+/*  */
+.MAholi {
+    padding: 3px 8px;
+}
+/* 页面主体 */
+.AC_div {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.AC_img {
+    padding: 3px;
+}
+.main_left {
+    width: 666px;
+}
+.Ml_header {
+    margin-top: 28px;
+}
+.MlH_tiaoji {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.MlH_gengduo {
+    color: #ccc;
+}
+.Ml_main {
+    width: 49%;
+}
+.ML_zhanwei {
+    width: 2%;
+    height: 198px;
+}
+.main_right {
+    width: 290px;
+}
+.MR_title {
+    width: 100%;
+}
+.MR_xian {
+    display: block;
+    width: 60%;
+    height: 25px;
+    border-bottom: 1px solid #ccc;
+}
+.MR_span {
+    font-size: 16px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #f6bf1b;
+    z-index: 1199;
+    font-weight: bolder;
+}
+/* 调剂栏样式 */
+.tjli {
+    display: block;
+    overflow:hidden;
+    padding-top: 14px;
+}
+.tjli span:nth-child(3) {
+    color: #ccc;
+}
+.ri {
+    display: block;
+    margin: 6px;
+    margin-right: 13px;
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+}
+.tjul .tjli:hover .ri {
+    background-color: #ca0000;
+}
+.tjspan {
+    width: 200px;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.tjli a {
+    font-size: 14px;
+}
+.tjul .tjli:hover a {
+    color: #ca0000;
+}
+.kaoshilan {
+    width: 290px;
+    margin-top: 28px;
+}
+.bishi {
+    width: 290px;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.bsname {
+    width: 97px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+}
+.bsgd {
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+/* 插入图 */
+.ACcharutu {
+    margin-top: 30px;
+}
+/* 轮播图 */
+#box {
+    width: 100%;
+    height: 100%;
+}
+#list {
+    width: 100%;
+    height: 100%;
+}
+#list li {
+    width: 100%;
+    height: 100%;
+}
+#nav {
+    position: absolute;
+    left: 46%;
+    bottom: 5px;
+}
+#nav li {
+    width: 15px;
+    height: 15px;
+    margin: 4px 5px;
+    line-height: 15px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.8);
+}
+#nav .active {
+    background-color: rgba(55,220,37,0.8);
+}
+#Inav {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 院校 */
+.IN_title {
+    border-bottom: 2px solid #0856a6;
+    padding-bottom: 14px;
+}
+.INti_span {
+    font-size: 18px;
+    color: #0856a6;
+    padding-left: 17px;
+    font-weight: bolder;
+    border-left: 5px solid #0856a6;
+}
+.INtldiv {
+    padding: 8px 0px;
+}
+.INtldiv:nth-of-type(odd) {
+    margin-right: 17px;
+}
+.INname {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.INspna {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+.INinbu {
+    padding: 4px 24px;
+    font-size: 12px;
+    background-color: #338eec;
+    color: #fff;
+    border-radius: 2px;
+}
+.INtiimg {
+    padding-right: 16px;
+}

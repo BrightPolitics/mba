@@ -1,0 +1,333 @@
+.MBAheader {
+    width: 100%;
+    height: 33px;
+    background-color: #fff;
+}
+.MBAheader_tab {
+    width:1000px;
+    margin:0 auto;
+    height: 100%;
+}
+.Mh_bowen {
+    padding: 8px 0px;
+    font-size: 12px;
+}
+.Mh_li {
+    padding: 8px 13px;;
+    font-size: 12px;
+}
+.Mh_li:hover a {
+    color: #ca0000;
+}
+.MBAtitle{
+    height: 293px;
+    position: relative;
+}
+.column_nav {
+    width: 100%;
+    background: url('../image/timg.png');
+}
+img {
+    cursor: pointer;
+}
+.MBAlogo{
+    width: 128px;
+    height: 128px;
+    margin-top: 40px;
+    background-color: #ccc;
+}
+/* 搜索框 */
+.MBAsearch {
+    margin-top: 49px;
+    margin-left: 107px;
+}
+.MBAint {
+    width: 424px;
+    height: 41px;
+    font-size: 24px;
+    padding-left: 10px;
+    background-color: #fbf7f705;
+    border: 2px solid #ca0000;
+}
+.inb {
+    width: 107px;
+    height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+    border: 2px solid #ca0000;
+    background: url('../image/组 29.png');
+    background-size: 100%;
+}
+.MBA30 {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+/* 首页复制 */
+.MBAhome {
+    width: 100%;
+    margin-bottom: 28px;
+}
+.MBAhomeimg {
+    width: 276px;
+    height: 329px;
+    background-color: #ccc;
+    overflow: hidden;
+    position: relative;
+}
+/* 轮播图 */
+#box {
+    width: 100%;
+    height: 100%;
+}
+#list {
+    width: 100%;
+    height: 100%;
+}
+#list li {
+    width: 100%;
+    height: 100%;
+}
+#nav {
+    position: absolute;
+    left: 33%;
+    bottom: 5px;
+}
+#nav li {
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    line-height: 15px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.8);
+}
+#nav .active {
+    background-color: rgba(55,220,37,0.8);
+}
+.MBAhomedh {
+    width: 388px;
+    margin-left: 25px;
+    margin-bottom: 26px;
+}
+.homeh2 {
+    height: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    white-space : normal nowrap;
+    overflow: hidden;
+    color: #ca0000;
+}
+.houl {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.houl1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hone {
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+.hone a {
+    color: #747474;
+}
+.holi {
+    padding: 0 8px;
+}
+.holi a {
+    color: #808080;
+}
+.houl .holi:hover a {
+    color: #ca0000;
+}
+.houl .hone:hover a {
+    color: #747474;
+}
+/* 调剂活动 */
+.tiaoji {
+    width: 275px;
+}
+.MBAtiaojiimg {
+    display: block;
+    width: 100%;
+    height: 138px;
+    background-color: #ccc;
+    margin-bottom: 25px;
+}
+.MBAtiaojih3 {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #ccc;
+}
+/* 调剂栏样式 */
+.tjli {
+    display: block;
+    overflow:hidden;
+    padding-top: 14px;
+}
+.tjli span:nth-child(3) {
+    color: #ccc;
+}
+.ri {
+    display: block;
+    margin: 6px;
+    margin-right: 13px;
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+}
+.tjul .tjli:hover .ri {
+    background-color: #ca0000;
+}
+.tjspan {
+    width: 200px;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.tjli a {
+    font-size: 14px;
+}
+.tjul .tjli:hover a {
+    color: #ca0000;
+}
+/* 侧栏八宫格 */
+.MBA_sidebar {
+    width: 266px;
+    height: 129px;
+}
+.MBA_sidli {
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.MBA_sidspan {
+    display: block;
+}
+/* 轻松考取专本科 */
+.hengtu {
+    width: 100%;
+    height: 143px;
+    margin-bottom: 32px;
+}
+.hengtuimg {
+    display: block;
+    width: 100%;
+    height: 143px;
+}
+/* 页面主体 */
+.main_left {
+    width: 666px;
+}
+.Ml_header {
+    margin-bottom: 28px;
+}
+.MlH_tiaoji {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.MlH_gengduo {
+    color: #ccc;
+}
+.Ml_main {
+    width: 49%;
+}
+.ML_zhanwei {
+    width: 2%;
+    height: 198px;
+}
+.main_right {
+    width: 290px;
+}
+/* 主菜单右侧 */
+.MR_title {
+    width: 100%;
+}
+.MR_xian {
+    display: block;
+    width: 60%;
+    height: 25px;
+    border-bottom: 1px solid #ccc;
+}
+.MR_span {
+    font-size: 16px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #f6bf1b;
+    z-index: 1199;
+    font-weight: bolder;
+}
+.MR_tab {
+    margin-bottom: 30px;
+}
+.MR_li {
+    padding-top: 13px;
+    font-size: 14px;
+}
+.MR_li a {
+    margin-left: 17px;
+}
+.MR_li:hover a {
+    color: #ca0000;
+}
+.MR_i {
+    padding: 0px 10px;
+    font-size: 12px;
+    background-color: #1f90d7;
+    color: #fff;
+}
+/* 考试模块 */
+.kaoshi {
+    width: 100%;
+}
+.kaoshilan {
+    width: 301px;
+    margin-bottom: 30px;
+}
+.bishi {
+    width: 305px;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 22px;
+}
+.bsname {
+    width: 97px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca0000;
+}
+.bsgd {
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+.tuwen {
+    width: 100%;
+    height: 70px;
+}
+.tu {
+    display: block;
+    width: 133px;
+    height: 100%;
+    margin-right: 20px;
+    background-color: blueviolet;
+}
+.wen1 {
+    width: 133px;
+    font-weight: bold;
+    font-size: 14p;
+    color: #ca0000;
+}
+.zhongjian {
+    margin: 0 38px;
+}
