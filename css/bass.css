@@ -135,9 +135,9 @@ span a:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(255,255,255,0.33);
+    /* background-color: rgba(255,255,255,0.33); */
     z-index: 1999;
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F808080,endColorstr=#7F808080);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
 }
 .nav li{
     width: 58px;
