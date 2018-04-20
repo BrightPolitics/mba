@@ -63,6 +63,7 @@ img {
     border: 2px solid #ca0000;
     background: url('../image/组 29.png');
     background-size: 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='file:///E:/mba/image/组 29.png',  sizingMethod='scale');
 }
 .MBA30 {
     margin-left: 60px;
@@ -179,6 +180,7 @@ img {
     margin-top: 11px;
     width: 235px;
     height: 35px;
+    line-height: 35px;
     box-sizing: border-box;
     padding-left: 10px;
     font-size: 14px;

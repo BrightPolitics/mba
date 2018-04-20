@@ -32,6 +32,7 @@ img {
     border: 2px solid #ca0000;
     background: url('../image/组 29.png');
     background-size: 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='file:///E:/mba/image/组 29.png',  sizingMethod='scale');
 }
 .more {
     margin-top: 42px;

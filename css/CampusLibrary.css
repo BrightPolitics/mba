@@ -25,8 +25,10 @@
     border: 2px solid #ca0000;
 }
 .nav_int {
+    display: block;
     width: 150px;
     height: 100%;
+    line-height: 41px;
     font-size: 16px;
     color: #ccc;
     padding-left: 60px;
@@ -40,6 +42,7 @@
     border: 2px solid #ca0000;
     background: url('../image/组 29.png');
     background-size: 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='file:///E:/mba/image/组 29.png',  sizingMethod='scale');
 }
 .nav_diqu {
     width: 75px;
@@ -105,9 +108,6 @@
 }
 /* 清华五道口 */
 .topnav_bottomul {
-    display: none;
-}
-.topnav_bottomul:nth-child(1){
     display: block;
 }
 .topnav_bottomli {
@@ -379,12 +379,9 @@
 .Sbk_tabli:hover a {
     color: #ca0000;
 }
-.Sbk_tabul:nth-last-child(1) {
-   display: none;
+.Sbk_tabul {
+    display: block;
 }
-.Sbk_tabul:nth-last-child(2) {
-    display: none;
- }
 .Sbk_red {
     background-color: #ca0000;
     color: #fff;
